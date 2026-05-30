@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD de Pessoas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Cadastro de Pessoas</h1>
+
+    <input type="text" id="nome" placeholder="Digite o nome">
+    <input type="number" id="idade" placeholder="Digite a idade">
+
+    <button onclick="adicionarPessoa()">Cadastrar</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaPessoas">
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
